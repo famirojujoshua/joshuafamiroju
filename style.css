@@ -1,0 +1,154 @@
+*{
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+
+
+
+.home-ul{
+   text-decoration: none;
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   padding: 0 40px;
+   margin-top: 80px;
+}
+
+.home-a{
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    font-weight: bolder;
+    font-family: 'Heebo', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.active{
+    color: #FF6464;
+}
+
+#leftSection, #rightSection{
+    padding: 50px 0;
+    width: 50%;
+    line-height: 35px;
+    letter-spacing: 3px;
+}
+
+.sect-1{
+    padding: 0 40px;
+    display: flex;
+}
+
+#rightSection img{
+    border-radius: 50%;
+    float: right;
+}
+
+#leftSection button{
+    background-color: #FF6464;
+    border: 0;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.sect-two{
+    background: #EDF7FA;
+    padding: 70px 100px;
+    margin: 0;
+}
+
+#sect-two-first-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sect-two-first-child h3{
+    font-size: 22px;
+}
+
+#sect-two-first-child a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+
+#sect-two-second-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect-two-left{
+    background-color: #fff;                 
+    width: 43%;
+    padding: 20px 27px;
+    border-radius: 4px;
+}
+
+.sect-two-right{
+    background-color: #fff;
+    width: 43%;
+    padding: 20px 27px;
+    border-radius: 4px;
+}
+
+.title p {
+    margin: 0;
+}
+.title p:nth-child(even) {
+    padding: 0px 25px;
+}
+.title {
+    display: flex;
+    margin: 26px 0;
+}
+
+.sect-three {
+    padding: 70px 70px;
+}
+
+.sect-three-img{
+    width: 90%;
+}
+
+.sect-three > div:nth-child(2) >div:nth-child(1) {
+    width: 27%;
+}
+
+.sect-three-date > p:nth-child(1) {    
+    background: #142850;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0px 13px;
+    margin-right: 20px;
+}
+.sect-three-date > p:nth-child(2) {    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.sect-three-date {
+    display: flex;
+    align-items: center;
+    padding: 1px 0;
+}
+
+.sect-three > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 20px 0;
+}
+
